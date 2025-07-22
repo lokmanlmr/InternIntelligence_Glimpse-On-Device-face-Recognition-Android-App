@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.loqmane.glimpse.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/facesFragment"
+        android:name="com.loqmane.glimpse.FacesFragment"
+        android:label="fragment_faces"
+        tools:layout="@layout/fragment_faces">
+        <action
+            android:id="@+id/action_facesFragment_to_addNewFaceFragment"
+            app:destination="@id/addNewFaceFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/addNewFaceFragment"
+        android:name="com.loqmane.glimpse.AddNewFaceFragment"
+        android:label="fragment_add_new_face"
+        tools:layout="@layout/fragment_add_new_face">
+        <argument
+            android:name="faceName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_addNewFaceFragment_to_facesFragment"
+            app:destination="@id/facesFragment" />
+    </fragment>
+</navigation>

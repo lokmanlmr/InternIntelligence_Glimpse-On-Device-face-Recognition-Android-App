@@ -1,0 +1,70 @@
+    # Built application files
+    *.apk
+    *.ap_
+    *.aab
+    *.aar
+    
+    # Files for the ART/JVM
+    *.dex
+    
+    # Files for the Dalvik VM
+    *.odex
+    
+    # Gradle files
+    .gradle/
+    build/
+    
+    # Local configuration files (IntelliJ/Android Studio)
+    .idea/
+    .iml
+    local.properties
+    .DS_Store # Mac specific
+    
+    # Keystore files
+    *.jks
+    *.keystore
+    
+    # External native build/debug files
+    .externalNativeBuild/
+    .cxx/
+    cmake/
+    
+    # NDK modules (if any)
+    /src/main/jniLibs/
+    /src/main/libs/
+    
+    # Android Studio's generated files
+    captures/
+    .build/
+    .settings/
+    .run/
+    
+    # User-specific (IDE) files
+    workspace.xml
+    tasks.xml
+    
+    # Crashlytics/Fabric files
+    crashlytics-build.properties
+    
+    # Annotation processing
+    .apt_generated/
+    
+    # Kotlin
+    *.kotlin_module
+    
+    # Android Profiler
+    .profile/
+    
+    # VCS ignore files (e.g., for Git)
+    .git/
+    .gitignore
+    .gitattributes
+    
+    # Unit tests and Android tests
+    **/build/generated/
+    **/build/intermediates/
+    **/build/outputs/
+    **/build/tmp/
+    
+    # For Android Studio's instant run feature
+    instant-run/
