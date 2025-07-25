@@ -47,12 +47,3 @@ https://github.com/timesler/facenet-pytorch
 | :---------------: | :------------------: | :------------------: |
 |  ![Enrollment Screen](./images/AddNewFaceFragment.jpg) |   ![My Recognition Screen](./images/HomeFragment.jpg) | ![My Recognition Screen](./images/ManageFacesFragment.jpg) |
 
-## 📦 Setup and Installation
-
-1.  Clone the repository:
-    ```sh
-    git clone [https://github.com/YOUR_USERNAME/Glimpse.git](https://github.com/YOUR_USERNAME/Glimpse.git)
-    ```
-2.  Open the project in Android Studio.
-3.  Let Gradle sync and download the required dependencies.
-4.  Build and run the application on an Android device or emulator.
